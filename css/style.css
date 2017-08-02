@@ -1,7 +1,7 @@
 /* CSS Document */
 @font-face {
 	font-family: GeForce;
-	src: url(/res/geforce-light.ttf);
+	src: url(/fonts/geforce-light.ttf);
 	/*src: url(../res/geforce-bold.ttf);*/
 }
 p {
