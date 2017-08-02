@@ -1,0 +1,16 @@
+/* CSS Document */
+@font-face {
+	font-family: GeForce;
+	src: url(/res/geforce-light.ttf);
+	/*src: url(../res/geforce-bold.ttf);*/
+}
+p {
+	font-family: GeForce;
+	color: crimson;
+}
+p.normal {
+	font-weight: normal;
+}
+p.bold {
+	font-weight: bold;
+}
