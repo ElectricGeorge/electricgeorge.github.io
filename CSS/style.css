@@ -9,6 +9,8 @@ p {
 }
 p.normal {
 	font-weight: normal;
+	font-family: GeForce;
+	color: crimson;
 }
 p.bold {
 	font-weight: bold;
