@@ -2,15 +2,25 @@
 @font-face {
 	font-family: GeForce;
 	src: url(/fonts/geforce-light.ttf);
-	/*src: url(../res/geforce-bold.ttf);*/
+	/*src: url(/res/geforce-bold.ttf);*/
+}
+/*html {
+	height: 100%;
+	width: 100%;
+}*/
+body {
+	background-color: #303030;
+	font-weight: normal;
+	font-size: 12pt;
+	font-family: GeForce;
+	color: #76b900;
 }
 p {
-	font-family: GeForce;
-	color: crimson;
+	
 }
-p.normal {
-	font-weight: normal;
-}
-p.bold {
+.bold {
 	font-weight: bold;
+}
+.heading {
+	font-size: 18pt;
 }
