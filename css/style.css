@@ -18,9 +18,16 @@ body {
 p {
 	
 }
-.bold {
-	font-weight: bold;
+a {
+	color: chartreuse;
 }
+div.header {
+	background-color: #202020;
+	padding: 8px;
+}
+/*.bold {
+	font-weight: bold;
+}*/
 .heading {
 	font-size: 18pt;
 }
