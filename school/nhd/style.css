@@ -1,29 +1,31 @@
 html, body {
 	background-color: #f2f2f2;
-	font-family: Comic Sans MS;
+	font-family: Helvetica;
 	margin: 0px;
 	padding: 0px;
 }
 a{
-	color: #ff0000;
+	color: #ffffff;
 	text-decoration: none;
 }
 #header {
 	background-color: #d80808;
 	color: #f2f2f2;
 	font-size: 32px;
-	margin: 0px;
-	padding: 3px;
+	padding: 1%;
 }
 #body {
-	margin: 0px;
-	padding: 3px;
+	margin-left: 17%;
+	padding: 1%;
 }
 #sitemap {
 	background-color: #000000;
+	font-weight: bold;
 	color: #f2f2f2;
-	margin: 0px;
-	padding: 3px;
+	font-size: 14px;
+	padding: 1%;
+	width: 15%;
+	float: left;
 }
 div.subheading {
 	color: #f2f2f2;
