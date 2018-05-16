@@ -1,0 +1,41 @@
+:root {
+	--sw1: #f8e9a1;
+	--sw2: #f76c6c;
+	--sw3: #a8d0e6;
+	--sw4: #374785;
+	--sw5: #24305e;
+}
+html, body {
+	background-color: white;
+	font-family: Helvetica;
+	margin: 0px;
+	padding: 0px;
+}
+a.smlink{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+#header {
+	background-color: var(--sw5);
+	color: var(--sw1);
+	font-size: 32px;
+	padding: 1%;
+}
+#body {
+	margin-left: 17%;
+	padding: 1%;
+}
+#sitemap {
+	background-color: var(--sw4);
+	font-weight: bold;
+	color: var(--sw1);
+	font-size: 16px;
+	padding: 1%;
+	width: 15%;
+	float: left;
+}
+div.subheading {
+	color: var(--sw2);
+	font-size: 24px;
+}
