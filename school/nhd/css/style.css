@@ -7,9 +7,13 @@
 }
 html, body {
 	background-color: white;
-	font-family: Helvetica;
+	font-family: Special Elite;
 	margin: 0px;
 	padding: 0px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
 }
 a.smlink{
 	color: white;
@@ -20,19 +24,22 @@ a.smlink{
 	background-color: var(--sw5);
 	color: var(--sw1);
 	font-size: 32px;
-	padding: 1%;
+	padding: 10px;
 }
 #body {
-	margin-left: 17%;
-	padding: 1%;
+	margin-left: 220px;
+	padding: 10px;
+	line-height: 1.15;
 }
-#sitemap {
+#sidebar {
 	background-color: var(--sw4);
 	font-weight: bold;
 	color: var(--sw1);
 	font-size: 16px;
-	padding: 1%;
-	width: 15%;
+	padding: 10px;
+	width: 200px;
+	height: 100%;
+	position: fixed;
 	float: left;
 }
 div.subheading {
