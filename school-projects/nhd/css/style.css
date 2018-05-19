@@ -11,11 +11,18 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 }
+footer {
+	background-color: var(--sw2);
+	padding: 10px;
+	margin: 0;
+}
 a {
-	text-decoration: none;
 	color: inherit;
 }
-a.smlink{
+a.title {
+	text-decoration: none;
+}
+a.smlink {
 	color: white;
 	font-size: 14px;
 	text-decoration: none;
@@ -52,11 +59,13 @@ li {
 	font-size: 16px;
 	padding: 10px;
 	width: 200px;
-	height: 100%;
 	position: absolute;
 	float: left;
 }
 div.subheading {
 	color: var(--sw2);
 	font-size: 24px;
+}
+div.foottext {
+	font-size: 16px;
 }
