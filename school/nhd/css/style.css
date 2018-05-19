@@ -20,6 +20,18 @@ a.smlink{
 	font-size: 14px;
 	text-decoration: none;
 }
+p {
+	
+}
+h2, h3 {
+	color: var(--sw2);
+}
+h4 {
+	color: var(--sw4);
+}
+br {
+	line-height: 1.5;
+}
 #header {
 	background-color: var(--sw5);
 	color: var(--sw1);
@@ -39,7 +51,7 @@ a.smlink{
 	padding: 10px;
 	width: 200px;
 	height: 100%;
-	position: fixed;
+	position: absolute;
 	float: left;
 }
 div.subheading {
