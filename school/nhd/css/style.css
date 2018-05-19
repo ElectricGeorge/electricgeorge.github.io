@@ -32,6 +32,8 @@ h4 {
 br {
 	line-height: 1.5;
 }
+li {
+}
 #header {
 	background-color: var(--sw5);
 	color: var(--sw1);
@@ -39,7 +41,7 @@ br {
 	padding: 10px;
 }
 #body {
-	margin-left: 220px;
+	margin-left: 240px;
 	padding: 10px;
 	line-height: 1.15;
 }
