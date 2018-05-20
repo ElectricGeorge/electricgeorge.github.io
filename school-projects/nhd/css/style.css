@@ -11,11 +11,6 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 }
-footer {
-	background-color: var(--sw2);
-	padding: 10px;
-	margin: 0;
-}
 a {
 	color: inherit;
 }
@@ -28,7 +23,6 @@ a.smlink {
 	text-decoration: none;
 }
 p {
-	
 }
 h2, h3 {
 	color: var(--sw2);
@@ -48,9 +42,15 @@ li {
 	padding: 10px;
 }
 #body {
-	margin-left: 240px;
 	padding: 10px;
 	line-height: 1.15;
+	float: none;
+	width: auto;
+}
+#footer {
+	background-color: var(--sw2);
+	padding: 10px;
+	margin-top: 20px;
 }
 #sidebar {
 	background-color: var(--sw4);
@@ -58,9 +58,20 @@ li {
 	color: var(--sw1);
 	font-size: 16px;
 	padding: 10px;
-	width: 200px;
-	position: absolute;
-	float: left;
+}
+.container {
+    margin: auto;
+	height: 1800px;
+}
+.left {
+	width: 150px;
+	height: 100%;
+    background: red;
+    float: left;
+}
+.right {
+    margin-left: 190px;
+    height: 100%;
 }
 div.subheading {
 	color: var(--sw2);
