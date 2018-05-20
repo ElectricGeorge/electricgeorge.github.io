@@ -45,7 +45,7 @@ li {
 	padding: 10px;
 	line-height: 1.15;
 	float: none;
-	width: auto;
+	width: 1000px;
 }
 #footer {
 	background-color: var(--sw2);
