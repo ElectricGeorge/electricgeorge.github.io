@@ -1,35 +1,75 @@
 /* CSS Document */
 @font-face {
 	font-family: GeForce;
-	src: url(/fonts/geforce-light.ttf);
-	/*src: url(/res/geforce-bold.ttf);*/
-}
-/*html {
-	height: 100%;
-	width: 100%;
-}*/
-body {
-	background-color: #101010;
 	font-weight: normal;
-	font-size: 12pt;
+	src: url(/fonts/geforce-light.ttf);
+}
+@font-face {
 	font-family: GeForce;
-	color: #76b900;
+	font-weight: bold;
+	src: url(/fonts/geforce-bold.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: normal;
+	font-style: normal;
+	src: url(/fonts/Rodin-Regular.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: bold;
+	font-style: normal;
+	src: url(/fonts/Rodin-Bold.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: normal;
+	font-style: italic;
+	src: url(/fonts/Rodin-Italic.ttf);
+}
+@font-face {
+	font-family: Rodin;
+	font-weight: bold;
+	font-style: italic;
+	src: url(/fonts/Rodin-BoldItalic.ttf);
+}
+
+body {
+	background-color: #0093FF;
 	margin: 0px;
 	padding: 0px;
 }
-p {
+#header {
+	background-color: #0093FF;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 5px;
+}
+#body {
+	background-color: #ECECEC;
+	font-weight: normal;
+	font-size: 12pt;
 	
+	/*color: #76b900;*/
+	margin: 0px;
+	padding: 5px;
 }
-a {
-	color: chartreuse;
+#footer {
+	background-color: #0093FF;
+	margin: 0px;
+	padding: 5px;
 }
-div.header {
-	background-color: #202020;
-	padding: 8px;
-}
-/*.bold {
+
+.title {
+	font-family: Rodin;
 	font-weight: bold;
-}*/
-.heading {
 	font-size: 18pt;
+}
+.nav {
+	font-family: Rodin;
+	font-size: 14pt;
+}
+.text {
+	font-family: Rodin;
+	font-size: 11pt;
 }
